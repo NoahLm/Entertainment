@@ -1,5 +1,4 @@
 from ast import While
-import ui 
 import read_write_files as rw 
 
 import random
@@ -43,12 +42,3 @@ def game(difficulty_lives):
 
     while lives >= 0:
         pass
-
-def main(): 
-    ui.clear_scrn()
-    ui.welcome_scrn()
-
-    print("Welcome")
-
-if __name__ == "__main__":
-    main()
