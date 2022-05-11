@@ -4,6 +4,9 @@ import os
 def welcome_scrn():
     print("0\n|\n^")
 
+    time.sleep(3)
+    os.system("cls")
+
 def menu():
     pass
 

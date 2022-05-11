@@ -2,8 +2,9 @@ import ui
 import read_write_files as rw 
 
 def main(): 
-    print("Hola mundo")
     ui.clear_scrn()
+    ui.welcome_scrn()
+    
     print("Adios mundo")
     ui.clear_scrn()
     print("Awa")
