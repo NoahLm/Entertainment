@@ -1,5 +1,8 @@
+import time
+import os
+
 def welcome_scrn():
-    pass
+    print("0\n|\n^")
 
 def menu():
     pass
@@ -18,3 +21,7 @@ def lose():
 
 def win():
     pass
+
+def clear_scrn():
+    time.sleep(1)
+    os.system("cls")
