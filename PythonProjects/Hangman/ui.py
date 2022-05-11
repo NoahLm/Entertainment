@@ -2,7 +2,9 @@ import time
 import os
 
 def welcome_scrn():
-    print("0\n|\n^")
+    print("| |  .--.  ^   |  .----|  ^   ^  .--.  ^   |\n")
+    print("|-|  |--|  | | |  |  -.   | v |  |--|  | | |\n")
+    print("| |  |  |  |   v  .---|   |   |  |  |  |   v\n\n")
 
     time.sleep(3)
     os.system("cls")
