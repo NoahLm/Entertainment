@@ -1,10 +1,11 @@
 from ast import While
 import read_write_files as rw 
+import ui
 
 import random
 
 #This function searches for the user letter in the word. Return True if it is there, and False otherwise.
-def letter_check(letter , word, support_list, lives):
+def letter_check(letter , word, support_list):
     for i in range(len(word)):
         if letter == word[i]:
             if support_list[i] == 1:
@@ -20,14 +21,13 @@ def letter_check(letter , word, support_list, lives):
     return False, support_list
 
 def print_word(word, support_list):
-    for i in support_list:
-        if i == 1:
-            print(word[i] + " ")
+    for i in range(len(support_list)):
+        if support_list[i] == 1:
+            print(word[i], end = ' ')
 
         else:
-            print("_ ")
+            print("_", end = ' ')
             
-
 #From the list of words extracted from the file, returns one of them randomly
 def choosing_random_word(file_words):
     index = random.randint(0, len(file_words))
@@ -39,6 +39,7 @@ def creating_support_list(word):
     return [0 for i in range(len(word))]
 
 #Useful for selecting the difficulty of the game... Amount of lives 
+#Maybe a try and except here
 def difficulty(choice):
     if choice == 1:
         return 9
@@ -61,12 +62,18 @@ def game(difficulty_lives):
 
     while lives > 0:
 
+        print(f"Your lives are: {lives}" )
         print_word(word, supp_list)
+        print("\n")
         user = input("Introduce a letter: ")
 
-        bool_check, supp_list = letter_check(user , word, supp_list, lives)
+        bool_check, supp_list = letter_check(user , word, supp_list)
 
-        if bool_check == True: 
+        if supp_list.count(1) == len(supp_list):
+            ui.win()
+            break
+
+        elif bool_check == True: 
             print("Correct!")
             continue
         
@@ -74,6 +81,5 @@ def game(difficulty_lives):
             print("Incorrect!")
             lives -= 1
             continue
-            
-
-            
+    
+    print("U LOOSE")
