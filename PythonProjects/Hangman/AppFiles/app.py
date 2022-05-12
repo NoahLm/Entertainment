@@ -8,12 +8,16 @@ def letter_check(letter , word, support_list):
     for i in range(len(word)):
         if letter == word[i]:
             if support_list[i] == 1:
-                print("You already introduced that letter it")
+                print("You already introduced that letter")
                 return True, support_list
 
             elif support_list[i] == 0:
+
+                for j in range(len(word)):
+                    if letter == word[j]:
+                        support_list[j] = 1
+
                 print("Correct!")
-                support_list[i] = 1
                 return True, support_list
 
     print("U did not found a correct letter")
@@ -80,5 +84,6 @@ def game(difficulty_lives):
             print("Incorrect!")
             lives -= 1
             continue
-    
-    print("U LOOSE")
+        
+    if lives == 0:
+        print("U LOOSE")
