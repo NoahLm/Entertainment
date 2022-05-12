@@ -1,4 +1,5 @@
 import ui 
+import app
 
 
 def main(): 
