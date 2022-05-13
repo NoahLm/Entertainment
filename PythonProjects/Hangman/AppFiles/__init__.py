@@ -9,7 +9,11 @@ def main():
     print("Welcome\n")
     print("1.- Easy, 2.- Mid 3.-Hard")
 
-    diff = int(input("Choose a difficulty: "))
+    try:
+        diff = int(input("Choose a difficulty: "))
+    except ValueError:
+        print("Introduce only a number")
+
     lives = app.difficulty(diff)
     app.game(lives)
 

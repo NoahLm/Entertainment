@@ -42,7 +42,7 @@ def creating_support_list(word):
     return [0 for i in range(len(word))]
 
 #Useful for selecting the difficulty of the game... Amount of lives 
-#Maybe a try and except here
+#Maybe a try and except hereimage.png
 def difficulty(choice):
     if choice == 1:
         return 9
