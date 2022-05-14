@@ -33,7 +33,7 @@ def print_word(word, support_list):
             
 #From the list of words extracted from the file, returns one of them randomly
 def choosing_random_word(file_words):
-    index = random.randint(0, len(file_words))
+    index = random.randint(0, len(file_words) - 1)
     return file_words[index]
 
 #Creates a support list, the list will register which letters have been found by changing its values
