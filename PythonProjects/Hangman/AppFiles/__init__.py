@@ -9,15 +9,13 @@ def main():
     print("Welcome\n")
     print("1.- Easy, 2.- Mid 3.-Hard")
 
-    bool = True
-
     while bool:
         try:
             diff = int(input("Choose a difficulty: "))
             if diff < 1 or diff > 3:
                 print("Please select one of the options above")
                 continue
-            bool = False
+            break
 
         except ValueError:
             print("Introduce only a number")
