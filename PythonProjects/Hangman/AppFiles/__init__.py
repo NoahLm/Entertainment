@@ -7,7 +7,7 @@ def main():
     ui.welcome_scrn()
 
     print("Welcome\n")
-    print("1.- Easy, 2.- Mid 3.-Hard")
+    ui.difficulty()
 
     while bool:
         try:

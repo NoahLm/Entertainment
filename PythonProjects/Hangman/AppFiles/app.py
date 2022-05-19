@@ -86,4 +86,4 @@ def game(difficulty_lives):
             continue
         
     if lives == 0:
-        print("U LOOSE")
+        ui.lose()

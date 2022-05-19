@@ -14,7 +14,28 @@ def menu():
     pass
 
 def difficulty():
-    pass
+    
+    print("1-Easy⢠⣶⠅⠀")
+    print("     . ⢾⣆⡀")
+    print("     ⠘⢏⣈⡸⠃")
+    print("  ")
+
+    print("     ⢀⢤⢶⣦⠀⠀")
+    print("2-Mid⠀⠀⢸⢯⣇⡄⡀") 
+    print("     ⢀⡧⡞⠩⢛⣧⡇")
+    print("     ⠀⠿⢀⣀⡸⠟⠀")
+
+    print("⠀⠀⠀⠀      ⢀⣤⣶⠈⡀⠀⠀⠀")
+    print("3-Hard⢀⡼⢀⣿⣟⡿⣧⡇⠀⠀⠀")
+    print("      ⠈⠀⢸⢧⣿⣻⠁⣀⠀⠀⠀")
+    print("      ⡄⠀⢸⡛⣼⣟⣶⢾⠂⢠⠄")
+    print("      ⢀⣷⠀⣸⢷⢫⢿⡽⣾⣄⣾⠀")
+    print("     .⢸⣻⠿⡽⠋⠈⠛⢽⡞⣷⡻⠀")
+    print("     .⢸⣷⠛⠀⠀⠀⠀⢸⣽⢻⠃⠀")
+    print("      ⠙⠻⢤⣠⣤⣤⠿⠝⠋⠀⠀")
+    print("  ")
+
+    
 
 def ingame():
     pass
@@ -23,68 +44,52 @@ def mistakes(lives):
     pass
 
 def lose():
-    pass
+
+    print("                   .")
+    print("                  / V\ ")
+    print("                / `  /       Ooooooh no! You lost!")
+    print("               <<   |")
+    print("               /    |")
+    print("             /      |")
+    print("           /        |")
+    print("         /    \  \ /")
+    print("        (      ) | |")
+    print("________|   _/_  | |")
+    print("<__________\______)\__)")
 
 def win():
                                                                                                       
-    print("                                          iiii")                   
-    print("                                         i::::i")                  
-    print("                                          iiii")                   
-                                                                  
-    print("wwwwwww           wwwww           wwwwwwwiiiiiiinnnn  nnnnnnnn")    
-    print(" w:::::w         w:::::w         w:::::w i:::::in:::nn::::::::nn")  
-    print("  w:::::w       w:::::::w       w:::::w   i::::in::::::::::::::nn") 
-    print("   w:::::w     w:::::::::w     w:::::w    i::::inn:::::::::::::::n")
-    print("    w:::::w   w:::::w:::::w   w:::::w     i::::i  n:::::nnnn:::::n")
-    print("     w:::::w w:::::w w:::::w w:::::w      i::::i  n::::n    n::::n")
-    print("      w:::::w:::::w   w:::::w:::::w       i::::i  n::::n    n::::n")
-    print("       w:::::::::w     w:::::::::w        i::::i  n::::n    n::::n")
-    print("        w:::::::w       w:::::::w        i::::::i n::::n    n::::n")
-    print("         w:::::w         w:::::w         i::::::i n::::n    n::::n")
-    print("          w:::w           w:::w          i::::::i n::::n    n::::n")
-    print("           www             www           iiiiiiii nnnnnn    nnnnnn")
+    print("       ___")
+    print("      .=*   *=._.---.     __          _______ _   _   _ _ _ ")
+    print("    .*         c ' Y'`p   \ \        / /_   _| \ | | | | | | ")
+    print("   /   ,       `.  w_/     \ \  /\  / /  | | |  \| | | | |")
+    print("jgs |   '-.   /     /       \ \/  \/ /   | | | . ` | | | | |")
+    print("_,..._|      )_-\ \_=.\      \  /\  /   _| |_| |\  | |_|_|_|  ")
+    print("`-....-'`------)))`=-'*`'*    \/  \/   |_____|_| \_( |_|_|_")
+    
+    time.sleep(1)
+    os.system("cls")
+    time.sleep(1)
+
+    print("       ___")
+    print("      .=*   *=._.---.     __          _______ _   _   _ _ _ ")
+    print("    .*         c ' Y'`p   \ \        / /_   _| \ | | | | | | ")
+    print("   /   ,       `.  w_/     \ \  /\  / /  | | |  \| | | | |")
+    print("jgs |   '-.   /     /       \ \/  \/ /   | | | . ` | | | | |")
+    print("_,..._|      )_-\ \_=.\      \  /\  /   _| |_| |\  | |_|_|_|  ")
+    print("`-....-'`------)))`=-'*`'*    \/  \/   |_____|_| \_( |_|_|_")
 
     time.sleep(1)
     os.system("cls")
     time.sleep(1)
 
-    print("                                          iiii")                   
-    print("                                         i::::i")                  
-    print("                                          iiii")                   
-                                                                    
-    print("wwwwwww           wwwww           wwwwwwwiiiiiiinnnn  nnnnnnnn")    
-    print(" w:::::w         w:::::w         w:::::w i:::::in:::nn::::::::nn")  
-    print("  w:::::w       w:::::::w       w:::::w   i::::in::::::::::::::nn") 
-    print("   w:::::w     w:::::::::w     w:::::w    i::::inn:::::::::::::::n")
-    print("    w:::::w   w:::::w:::::w   w:::::w     i::::i  n:::::nnnn:::::n")
-    print("     w:::::w w:::::w w:::::w w:::::w      i::::i  n::::n    n::::n")
-    print("      w:::::w:::::w   w:::::w:::::w       i::::i  n::::n    n::::n")
-    print("       w:::::::::w     w:::::::::w        i::::i  n::::n    n::::n")
-    print("        w:::::::w       w:::::::w        i::::::i n::::n    n::::n")
-    print("         w:::::w         w:::::w         i::::::i n::::n    n::::n")
-    print("          w:::w           w:::w          i::::::i n::::n    n::::n")
-    print("           www             www           iiiiiiii nnnnnn    nnnnnn")
-
-    time.sleep(1)
-    os.system("cls")
-    time.sleep(1)
-
-    print("                                          iiii")                   
-    print("                                         i::::i")                  
-    print("                                          iiii")                   
-                                                                    
-    print("wwwwwww           wwwww           wwwwwwwiiiiiiinnnn  nnnnnnnn")    
-    print(" w:::::w         w:::::w         w:::::w i:::::in:::nn::::::::nn")  
-    print("  w:::::w       w:::::::w       w:::::w   i::::in::::::::::::::nn") 
-    print("   w:::::w     w:::::::::w     w:::::w    i::::inn:::::::::::::::n")
-    print("    w:::::w   w:::::w:::::w   w:::::w     i::::i  n:::::nnnn:::::n")
-    print("     w:::::w w:::::w w:::::w w:::::w      i::::i  n::::n    n::::n")
-    print("      w:::::w:::::w   w:::::w:::::w       i::::i  n::::n    n::::n")
-    print("       w:::::::::w     w:::::::::w        i::::i  n::::n    n::::n")
-    print("        w:::::::w       w:::::::w        i::::::i n::::n    n::::n")
-    print("         w:::::w         w:::::w         i::::::i n::::n    n::::n")
-    print("          w:::w           w:::w          i::::::i n::::n    n::::n")
-    print("           www             www           iiiiiiii nnnnnn    nnnnnn")
+    print("       ___")
+    print("      .=*   *=._.---.     __          _______ _   _   _ _ _ ")
+    print("    .*         c ' Y'`p   \ \        / /_   _| \ | | | | | | ")
+    print("   /   ,       `.  w_/     \ \  /\  / /  | | |  \| | | | |")
+    print("jgs |   '-.   /     /       \ \/  \/ /   | | | . ` | | | | |")
+    print("_,..._|      )_-\ \_=.\      \  /\  /   _| |_| |\  | |_|_|_|  ")
+    print("`-....-'`------)))`=-'*`'*    \/  \/   |_____|_| \_( |_|_|_")
 
     time.sleep(1)
     os.system("cls")
