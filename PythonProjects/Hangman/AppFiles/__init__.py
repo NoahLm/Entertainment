@@ -7,10 +7,11 @@ def main():
     ui.welcome_scrn()
 
     print("Welcome\n")
-    ui.difficulty()
+    ui.clear_scrn()
 
     while bool:
         try:
+            ui.difficulty()
             diff = int(input("Choose a difficulty: "))
             if diff < 1 or diff > 3:
                 print("Please select one of the options above")
@@ -19,6 +20,8 @@ def main():
 
         except ValueError:
             print("Introduce only a number")
+    
+    ui.clear_scrn()
 
     lives = app.difficulty(diff)
     app.game(lives)
